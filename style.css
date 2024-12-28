@@ -1,48 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
-
-.webgl {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  outline: none;
-  background-color: #000000;
-  cursor: move;
-  /* fallback if grab cursor is unsupported */
-  cursor: grabbing;
-  cursor: -moz-grabbing;
-  cursor: -webkit-grabbing;
-}
-
-#credits {
-  position: absolute;
-  width: 100%;
-  margin: auto;
-  bottom: 0;
-  margin-bottom: 20px;
-  font-family: "Open Sans", sans-serif;
-  color: #544027;
-  font-size: 0.7em;
-  text-transform: uppercase;
-  text-align: center;
-}
-#credits a {
-  color: #7beeff;
-}
-
-#credits a:hover {
-  color: #ff3434;
-}
-
-#instructions{
-  position: absolute;
-  width: 100%;
-  margin: auto;
-  bottom: 60px;
-  font-family: "Open Sans", sans-serif;
-  color: #ff3434;
-  font-size: 0.7em;
-  text-transform: uppercase;
-  text-align: center;
-}
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    overflow:hidden;
+    font-family: Arial;
+  }
+  .circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: black;
+  }
+  h4 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+  }
+  
